@@ -1,18 +1,16 @@
-*{
+ *{
   margin: 0;
   padding: 0;
   font-family: sans-serif;
 }
 .icon{
-  /* border-radius: 50%; */
-  height: 50px;
-  width: 50px;
+  border-radius: 50%;
 }
 .icon i{
   padding-top: 25px;
   padding-left: 15px;
-  /* height: 200px;
-  width: 200px; */
+  height: 30px;
+  width: 30px;
 }
 .container{
   display: flex;
@@ -37,10 +35,14 @@
   display: flex;
   justify-content: center;
 }
+ a:hover{
+        background-color: #ffffff3f; 
+        transition-duration: 1s;
+}
 .blocks{
   margin: 5px;
-  height: 120px;
-  width: 196px;
+  height: 90px;
+  width: 166px;
   background-color: #FFFFFF;
   text-align: center;
   border-radius: 5px;
@@ -52,7 +54,6 @@
   text-decoration: none;
   box-shadow: 0 0.5px 2px rgba(0, 0, 0, 0.3);
   font-size: 13px;
-  padding-bottom: 5px;
 }
 .all{
   width: 100%;
@@ -62,21 +63,19 @@
   padding-top: 10px;
   display: flex;
   flex-wrap: wrap;
-  background-color: rgba(250,250,250,265);
+  background-color: rgba(250,250,250,255);
 }
 a{
   text-decoration: none;
 }
-.image img{
-  /* margin: 5px; */
-  height: 70px;
-  width: 70px;
-  text-align: center;
-  border-radius: 5px;
-  align-items: center;
-  display: flex;
+.circle{
   justify-content: center;
-  flex-direction: column;
-  margin: 8px;
-  padding: 2px;
+  font-size: 25px;
+  font-family: Impact;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  height: 37px;
+  width: 37px;
+  border-radius: 50%;
 }
